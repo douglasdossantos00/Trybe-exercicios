@@ -1,27 +1,48 @@
-div:hover {
-  border: 3px solid;
+ol {
+  background-color: yellow;
 }
-div:nth-of-type(1) > h3{
- background-color: blue;
- color: red;
+
+ol li:nth-of-type(2n) {
+  color: green;
 }
-div:nth-of-type(2) > h3{
-  background-color: green;
-  color:purple ;
+ol li:nth-of-type(2n+1){
+  text-transform: uppercase;
 }
-div:nth-of-type(3) > h3{
- background-color: orange; 
- font-style: italic;
- height: 80px;
+h1, h3{
+  color: red;
 }
-div:nth-of-type(4) > h3{
-  background-color: brown;
-  font-size: small;
+h1 em, h3 em {
+  font-size: 40px;
+  border: 1px solid black;
 }
-div:nth-of-type(5) > h3{
-  background-color: azure;
-  text-decoration: underline;
+li {
+  font-size: 20px;
 }
-div:nth-of-type(2n+1) > h3{
-  font-style: italic;
+li em {
+  font-weight: bolder;
+}
+.linguagem {
+  color: blue;
+}
+.pink {
+ background-color: pink; 
+}
+#aliados li a:hover {
+font-weight: bolder;
+}
+
+#aliados li a:hover[href*="stackoverflow"]{
+  color: orange;
+}
+#aliados li a:hover[href*=w3schools]{
+  color: green;
+}
+#aliados li a:hover[href*="mozilla"] {
+  color: black;
+}
+#aliados li a:hover[href*="devdocs"] {
+  color: yellow;
+}
+#aliados li a:hover[href*="trybe"] {
+  color: green;
 }
