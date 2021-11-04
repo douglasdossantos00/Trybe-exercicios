@@ -1,3 +1,16 @@
-h1 {
+header {
     background-color: aqua;
+}
+#nav {
+    border: 5px, solid;
+}
+
+.navLinks {
+    background-color: blueviolet;
+}
+
+.navLinks li {
+    display: inline;
+    margin-right: 50px;
+    
 }
