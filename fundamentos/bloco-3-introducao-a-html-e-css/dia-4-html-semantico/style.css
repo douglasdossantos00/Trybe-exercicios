@@ -1,8 +1,10 @@
-header {
-    background-color: aqua;
+body {
+    background-color: rgb(212, 244, 245);
 }
-#nav {
-    border: 5px, solid;
+
+.h1 {
+    background-color: aqua;
+    text-align: center;
 }
 
 .navLinks {
