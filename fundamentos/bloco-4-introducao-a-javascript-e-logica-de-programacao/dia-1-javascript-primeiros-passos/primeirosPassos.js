@@ -10,15 +10,31 @@
 
 // *exercicio 2
 
-const c = 6;
-const d = 7;
+//const c = 6;
+//const d = 7;
+//if(c>d){
+//    console.log(c)
+//}
+//else {
+//    console.log(d)
+//}
 
-if(c>d){
-    console.log(c)
+// *exercicio 3
+
+const e = 6;
+const f = 7;
+const g = 8;
+if(e>f && e>g){
+    console.log(e)
+}
+else if(f>e && f>g) {
+    console.log(f)
 }
 else {
-    console.log(d)
+    console.log(g)
 }
+
+
 
 
 
