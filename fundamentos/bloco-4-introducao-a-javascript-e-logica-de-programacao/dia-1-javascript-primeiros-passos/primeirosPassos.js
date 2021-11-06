@@ -35,15 +35,27 @@
 //}
 
 // * exrecicio 4
-const a4 = 8;
-if(a4>0){
-    console.log("positive");
+//const a4 = 8;
+//if(a4>0){
+//  console.log("positive");
+//}
+//else if(a4<0) {
+//    console.log("negative");
+//}
+//else {
+//    console.log("zero")
+//}
+
+// *exercicio 5
+const a5 = -20;
+const b5 = 60;
+const c5 = 90;
+let comparacao = a5+b5+c5 == 180
+if (a5 < 0 || b5 < 0 || c5 <0){
+    console.log ("erro")
 }
-else if(a4<0) {
-    console.log("negative");
-}
-else {
-    console.log("zero")
+else{
+    console.log ("os ângulos representam um triângulo = ", comparacao)
 }
 
 
