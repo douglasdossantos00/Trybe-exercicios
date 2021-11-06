@@ -134,17 +134,68 @@
 
 // * exercicio 10
 
-const a10 = 10;
-const b10 = 50;
-const custoProd = (a10 * 1.2);
-const lucro = (b10 - custoProd)
-if(a10<0 || b10<0){
-    console.log("erro, valor menor que 0");
+//const a10 = 10;
+//const b10 = 50;
+//const custoProd = (a10 * 1.2);
+//const lucro = (b10 - custoProd)
+//if(a10<0 || b10<0){
+//    console.log("erro, valor menor que 0");
+//}
+//else {
+//    console.log(lucro * 1000);
+//}
+
+// * exercicio 11
+
+const salarioBruto = 1000;
+let inss = 0;
+let ir = 0;
+let salarioIr;
+let salarioLiquido;
+if(salarioBruto <= 1556.94) {
+    inss = (salarioBruto * 0.08);
+    salarioIr = (salarioBruto - inss);
+    }
+    else if(salarioBruto >= 1556.95 & salarioBruto <= 2594.92){
+        inss = (salarioBruto * 0.09);
+        salarioIr = (salarioBruto - inss);
+        }
+    else if(salarioBruto >= 2594.93 & salarioBruto <= 5189.82) {
+        inss = (salarioBruto * 0.11);
+        salarioIr = (salarioBruto - inss);
+        } 
+    else {
+        inss = (570.88);
+        salarioIr = (salarioBruto - inss);
+    }
+    
+if(salarioIr >= 1903.98 & salarioIr <= 2826.65) {
+    ir = ((salarioIr * 0.075) - 142.80);
+    salarioLiquido = (salarioIr - ir);      
+}
+else if(salarioIr >= 2826.66 & salarioIr <= 3751.05) {
+    ir = ((salarioIr * 0.15) - 354.80);
+    salarioLiquido = (salarioIr - ir);
+}
+else if(salarioIr >= 3751.06 & salarioIr <= 4664.68) {
+    ir = ((salarioIr * 0.225) - 636.13);
+    salarioLiquido = (salarioIr - ir);
+} 
+else if(salarioBruto >= 4664.68) {
+    ir = ((salarioIr * 0.275) - 869.36);
+    salarioLiquido = (salarioIr - ir);
 }
 else {
-    console.log(lucro * 1000);
+    salarioLiquido = (salarioIr - ir);
 }
+    
 
+    
+    
+
+console.log("valor inss = ", inss);
+console.log("valor do IR = ", ir);
+console.log("valor do salário líquido =", salarioLiquido);
 
 
 
