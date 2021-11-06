@@ -34,7 +34,7 @@
 //    console.log(g)
 //}
 
-// * exrecicio 4
+// * exercicio 4
 //const a4 = 8;
 //if(a4>0){
 //  console.log("positive");
@@ -47,6 +47,7 @@
 //}
 
 // *exercicio 5
+
 //const a5 = -20;
 //const b5 = 60;
 //const c5 = 90;
@@ -86,30 +87,51 @@
 
 // * exercicio 7
 
-const a7 = 30;
-if (a7<0 || a7>100) {
-    console.log("Valor não é válido");
-}
-    else if(a7>=90){
-    console.log("A");
-}    
-    else if(a7>=80) {
-        console.log("B");
-    }
-    else if(a7>=70) {
-        console.log("C");
-    }
-    else if(a7>=60) {
-        console.log("D");
-    }
-    else if(a7>=50) {
-        console.log("E");
-    }
-    else {
-        console.log("F");
-    }
+//const a7 = 30;
+//if (a7<0 || a7>100) {
+//    console.log("Valor não é válido");
+//}
+//    else if(a7>=90){
+//    console.log("A");
+//    }    
+//    else if(a7>=80) {
+//        console.log("B");
+//    }
+//    else if(a7>=70) {
+//        console.log("C");
+//    }
+//    else if(a7>=60) {
+//        console.log("D");
+//    }
+//    else if(a7>=50) {
+//        console.log("E");
+//    }
+//    else {
+//        console.log("F");
+//    }
     
+// * exercicio 8
+//const a8 = 11;
+//const b8 = 10;
+//const c8 = 11;
+//let par = false ;
+//if((a8%2 == 0 && b8%2 == 0 && c8%2 ==0)){
+//    par = true;
+//}
+//console.log("todos os números são par? =", par);
 
+// * ecxercicio 9
+const a8 = 11;
+const b8 = 13;
+const c8 = 11;
+let impar = false ;
+if((a8%2 !== 0 && b8%2 !== 0 && c8%2 !==0)){
+    impar = true;
+}
+console.log("todos os números são impar? =", impar);
+
+
+    
 
 
 
