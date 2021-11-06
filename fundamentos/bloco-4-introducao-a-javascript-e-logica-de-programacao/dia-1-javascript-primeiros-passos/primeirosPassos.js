@@ -59,30 +59,56 @@
 //}
 
 // *exercicio 6
-const a6 = "Bispo";
-const lowera6 = a6.toLowerCase()
-switch (lowera6) {
-    case "rei":
-        console.log("Movimenta para qualquer direção");
-        break;
-    case "rainha":
-        console.log("Movimenta para qualquer direção");
-        break;
-    case "bispo":
-        console.log("Movimenta para diagonal");
-        break;
-    case "torre":
-        console.log("Movimenta para horizontal ou vertical");
-        break;
-    case "cavalo":
-        console.log("Movimenta em L");
-        break;
-    case "peão":
-        console.log("Movimenta para frente ou na diagonal quando vai eliminar uma peça");
-        break;
-        default:
-            console.log("não é uma pea de xadrez");
+//const a6 = "Bispo";
+//const lowera6 = a6.toLowerCase()
+//switch (lowera6) {
+//  case "rei":
+//        console.log("Movimenta para qualquer direção");
+//        break;
+//    case "rainha":
+//        console.log("Movimenta para qualquer direção");
+//        break;
+//    case "bispo":
+//        console.log("Movimenta para diagonal");
+//        break;
+//    case "torre":
+//        console.log("Movimenta para horizontal ou vertical");
+//        break;
+//    case "cavalo":
+//        console.log("Movimenta em L");
+//        break;
+//    case "peão":
+//        console.log("Movimenta para frente ou na diagonal quando vai eliminar uma peça");
+//        break;
+//        default:
+//            console.log("não é uma pea de xadrez");
+//}
+
+// * exercicio 7
+
+const a7 = 30;
+if (a7<0 || a7>100) {
+    console.log("Valor não é válido");
 }
+    else if(a7>=90){
+    console.log("A");
+}    
+    else if(a7>=80) {
+        console.log("B");
+    }
+    else if(a7>=70) {
+        console.log("C");
+    }
+    else if(a7>=60) {
+        console.log("D");
+    }
+    else if(a7>=50) {
+        console.log("E");
+    }
+    else {
+        console.log("F");
+    }
+    
 
 
 
