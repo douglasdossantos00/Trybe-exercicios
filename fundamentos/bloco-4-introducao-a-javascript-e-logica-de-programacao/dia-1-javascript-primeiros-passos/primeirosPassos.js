@@ -47,16 +47,45 @@
 //}
 
 // *exercicio 5
-const a5 = -20;
-const b5 = 60;
-const c5 = 90;
-let comparacao = a5+b5+c5 == 180
-if (a5 < 0 || b5 < 0 || c5 <0){
-    console.log ("erro")
+//const a5 = -20;
+//const b5 = 60;
+//const c5 = 90;
+//let comparacao = a5+b5+c5 == 180
+//if (a5 < 0 || b5 < 0 || c5 <0){
+//    console.log ("erro")
+//}
+//else{
+//    console.log ("os ângulos representam um triângulo = ", comparacao)
+//}
+
+// *exercicio 6
+const a6 = "Bispo";
+const lowera6 = a6.toLowerCase()
+switch (lowera6) {
+    case "rei":
+        console.log("Movimenta para qualquer direção");
+        break;
+    case "rainha":
+        console.log("Movimenta para qualquer direção");
+        break;
+    case "bispo":
+        console.log("Movimenta para diagonal");
+        break;
+    case "torre":
+        console.log("Movimenta para horizontal ou vertical");
+        break;
+    case "cavalo":
+        console.log("Movimenta em L");
+        break;
+    case "peão":
+        console.log("Movimenta para frente ou na diagonal quando vai eliminar uma peça");
+        break;
+        default:
+            console.log("não é uma pea de xadrez");
 }
-else{
-    console.log ("os ângulos representam um triângulo = ", comparacao)
-}
+
+
+
 
 
 
