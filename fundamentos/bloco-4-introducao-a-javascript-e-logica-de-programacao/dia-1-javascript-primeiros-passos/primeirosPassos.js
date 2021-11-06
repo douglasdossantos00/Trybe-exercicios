@@ -111,6 +111,7 @@
 //    }
     
 // * exercicio 8
+
 //const a8 = 11;
 //const b8 = 10;
 //const c8 = 11;
@@ -121,14 +122,30 @@
 //console.log("todos os números são par? =", par);
 
 // * ecxercicio 9
-const a8 = 11;
-const b8 = 13;
-const c8 = 11;
-let impar = false ;
-if((a8%2 !== 0 && b8%2 !== 0 && c8%2 !==0)){
-    impar = true;
+
+//const a8 = 11;
+//const b8 = 13;
+//const c8 = 11;
+//let impar = false ;
+//if((a8%2 !== 0 && b8%2 !== 0 && c8%2 !==0)){
+//    impar = true;
+//}
+//console.log("todos os números são impar? =", impar);
+
+// * exercicio 10
+
+const a10 = 10;
+const b10 = 50;
+const custoProd = (a10 * 1.2);
+const lucro = (b10 - custoProd)
+if(a10<0 || b10<0){
+    console.log("erro, valor menor que 0");
 }
-console.log("todos os números são impar? =", impar);
+else {
+    console.log(lucro * 1000);
+}
+
+
 
 
     
