@@ -21,17 +21,29 @@
 
 // *exercicio 3
 
-const e = 6;
-const f = 7;
-const g = 8;
-if(e>f && e>g){
-    console.log(e)
+//const e = 6;
+//const f = 7;
+//const g = 8;
+//if(e>f && e>g){
+//    console.log(e)
+//}
+//else if(f>e && f>g) {
+//    console.log(f)
+//}
+//else {
+//    console.log(g)
+//}
+
+// * exrecicio 4
+const a4 = 8;
+if(a4>0){
+    console.log("positive");
 }
-else if(f>e && f>g) {
-    console.log(f)
+else if(a4<0) {
+    console.log("negative");
 }
 else {
-    console.log(g)
+    console.log("zero")
 }
 
 
