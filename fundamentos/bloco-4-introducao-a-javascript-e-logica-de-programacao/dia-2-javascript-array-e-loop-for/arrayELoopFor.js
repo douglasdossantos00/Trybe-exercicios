@@ -1,14 +1,14 @@
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-// * exercicio 1, percorrendo o array e imprimindo
+// *Exercicio 1, percorrendo o array e imprimindo
 
 /* for(let i=0; i < numbers.length; i++) {
     console.log(numbers [i])
 } */
 
 
-// *exercicio 2, somando todos valores e imprimindo
+// *Exercicio 2, somando todos valores e imprimindo
 
  /* let resultado = 0;
 for(let i=0; i < numbers.length; i++) {
@@ -18,7 +18,7 @@ console.log("resultado da soma =", resultado);
  */
 
 
-// * exercicio 3, média aritimética e impressão
+// * Exercicio 3, média aritimética e impressão
 
 /* numeroDeitens = numbers.length;
 resultado = 0;
@@ -29,7 +29,7 @@ console.log(" Média aritimética = ", (resultado/numeroDeitens));
  */
 
 
-// *exercicio 4, verificando se é maior/menor que 20 e imprimindo
+// *Exercicio 4, verificando se é maior/menor que 20 e imprimindo
 
 /*  numeroDeitens = numbers.length;
 resultado = 0;
@@ -47,14 +47,32 @@ if(mediaAritimetica > 20){
  */
 
 
-// *exercicio 5, descobrindo maior valor com for
-let numero = 0;
+// *Exercicio 5, descobrindo maior valor do array com for
+
+/* let numero = 0;
 for(let i=0; i < numbers.length; i++){
     if(numbers[i] > numero){
         numero=numbers[i]
     }
 }
-console.log(numero);
+console.log(numero); */
+
+
+// *Exercicio 6, descobrindo valores impares
+
+let numerosImpares = [];
+for(let i=0; i < numbers.length; i++){
+    if ((numbers[i] % 2) !== 0){
+    numerosImpares.push(numbers[i]); 
+    }
+}
+console.log(numerosImpares);
+
+if(numerosImpares.length == 0){
+    console.log("nenhum valor ímpar encontrado");
+}
+
+
 
 
 
