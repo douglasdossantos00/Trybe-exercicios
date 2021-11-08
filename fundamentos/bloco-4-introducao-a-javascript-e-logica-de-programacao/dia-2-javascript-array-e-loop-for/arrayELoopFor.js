@@ -86,11 +86,18 @@ console.log("menor valor do array =", numero);
 
 // *Exercicio 8, criando array de 1 a 25
 
-let novoArray = [];
+ let novoArray = [];
 for(let i=1; i < 26; i++){
     novoArray.push(i);
 }
-console.log(novoArray);
+console.log(novoArray); 
+
+
+// *Exercicio 9, imprimindo a divisão dos elementos do array anterior por 2
+
+for (let i = 1; i <= novoArray.length; i ++){
+    console.log(i/2);
+}
 
 
 
