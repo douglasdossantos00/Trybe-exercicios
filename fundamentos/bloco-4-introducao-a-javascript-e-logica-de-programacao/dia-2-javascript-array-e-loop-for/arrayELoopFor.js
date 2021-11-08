@@ -2,10 +2,11 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // * exercicio 1, percorrendo o array e imprimindo
- 
+
 /* for(let i=0; i < numbers.length; i++) {
     console.log(numbers [i])
 } */
+
 
 // *exercicio 2, somando todos valores e imprimindo
 
@@ -15,6 +16,7 @@ for(let i=0; i < numbers.length; i++) {
 } 
 console.log("resultado da soma =", resultado);
  */
+
 
 // * exercicio 3, média aritimética e impressão
 
@@ -26,9 +28,10 @@ for(let i=0; i < numbers.length; i++) {
 console.log(" Média aritimética = ", (resultado/numeroDeitens));
  */
 
+
 // *exercicio 4, verificando se é maior/menor que 20 e imprimindo
 
- numeroDeitens = numbers.length;
+/*  numeroDeitens = numbers.length;
 resultado = 0;
 
 for(let i=0; i < numbers.length; i++) {
@@ -41,10 +44,19 @@ if(mediaAritimetica > 20){
     else{
         console.log("Valor menor que 20")
     }
+ */
 
 
+// *exercicio 5, descobrindo maior valor com for
+let numero = 0;
+for(let i=0; i < numbers.length; i++){
+    if(numbers[i] > numero){
+        numero=numbers[i]
+    }
+}
+console.log(numero);
 
-/*console.log(" Média aritimética = ", (resultado/numeroDeitens)); */
+
 
 
 
