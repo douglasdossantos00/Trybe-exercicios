@@ -55,7 +55,7 @@ for(let i=0; i < numbers.length; i++){
         numero=numbers[i]
     }
 }
-console.log(numero); */
+console.log("maior valor do array ="numero); */
 
 
 // *Exercicio 6, descobrindo valores impares
@@ -74,13 +74,24 @@ if(numerosImpares.length == 0){
 
 // *Exercicios 7, menor valor com for
 
-let numero = numbers[1];
+/* let numero = numbers[1];
 for(let i=0; i < numbers.length; i++){
     if(numbers[i] < numero){
         numero=numbers[i]
     }
 }
 console.log("menor valor do array =", numero);
+ */
+
+
+// *Exercicio 8, criando array de 1 a 25
+
+let novoArray = [];
+for(let i=1; i < 26; i++){
+    novoArray.push(i);
+}
+console.log(novoArray);
+
 
 
 
