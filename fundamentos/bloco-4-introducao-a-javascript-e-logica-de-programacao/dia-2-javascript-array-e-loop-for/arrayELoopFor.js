@@ -95,8 +95,8 @@ console.log(novoArray);
 
 // *Exercicio 9, imprimindo a divisão dos elementos do array anterior por 2
 
-for (let i = 1; i <= novoArray.length; i ++){
-    console.log(i/2);
+for (let i = 0; i < novoArray.length; i ++){
+    console.log(novoArray[i]/2);
 }
 
 
