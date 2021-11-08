@@ -60,17 +60,29 @@ console.log(numero); */
 
 // *Exercicio 6, descobrindo valores impares
 
-let numerosImpares = [];
+/* let numerosImpares = [];
 for(let i=0; i < numbers.length; i++){
     if ((numbers[i] % 2) !== 0){
     numerosImpares.push(numbers[i]); 
     }
 }
 console.log(numerosImpares);
-
 if(numerosImpares.length == 0){
     console.log("nenhum valor ímpar encontrado");
+} */
+
+
+// *Exercicios 7, menor valor com for
+
+let numero = numbers[1];
+for(let i=0; i < numbers.length; i++){
+    if(numbers[i] < numero){
+        numero=numbers[i]
+    }
 }
+console.log("menor valor do array =", numero);
+
+
 
 
 
