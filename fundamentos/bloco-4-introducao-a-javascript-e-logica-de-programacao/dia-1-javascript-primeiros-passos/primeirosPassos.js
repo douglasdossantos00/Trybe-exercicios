@@ -147,7 +147,7 @@ else {
     console.log(lucro * 1000);
 }
 
-// * exercicio 11
+git // * exercicio 11
 
 const salarioBruto = 1000;
 let inss = 0;
