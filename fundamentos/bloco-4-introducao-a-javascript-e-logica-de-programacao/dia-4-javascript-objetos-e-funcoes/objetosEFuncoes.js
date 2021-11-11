@@ -25,7 +25,7 @@
 console.log(info);
  */
 
-// Exercicio 3, fazer for/in para mostar as chaves
+/* // Exercicio 3, fazer for/in para mostar as chaves
 let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
@@ -35,7 +35,21 @@ let info = {
   // criando loop for /in
   for(let key in info){
       console.log(key);
+  } */
+
+
+// Exercicio 4, fazer for/in para mostrar os valores das chaves
+let info = {
+    personagem: 'Margarida',
+    origem: 'Pato Donald',
+    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+    recorrente: "Sim",
+  };
+// criando loop for/in
+  for(let key in info){
+      console.log(info[key]);
   }
+
 
 
 
