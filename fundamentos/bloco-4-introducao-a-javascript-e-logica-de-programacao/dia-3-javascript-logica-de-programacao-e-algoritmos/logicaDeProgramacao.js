@@ -22,11 +22,28 @@ for (i=0; i<number; i++) {
 
 // * Exercicio 3, Agora inverta o lado do triângulo
 
-const number = 3;
+const number = 5;
 let nAsterisk = "*";
-let nLine = [];
+let nLine = "";
+let positonAsterisk = number;
+for (i=0; i<number; i++) {
+    for (i2=0; i2<=number; i2++){
+        if(i2 < positonAsterisk){
+            nLine = nLine + " ";
+        }
+        else {
+            nLine = nLine + "*";
+        }        
+        
+    }
+    console.log(nLine);
+    nLine = "";
+    positonAsterisk-= 1;
+}
 
 
 
-f
+
+
+
 
