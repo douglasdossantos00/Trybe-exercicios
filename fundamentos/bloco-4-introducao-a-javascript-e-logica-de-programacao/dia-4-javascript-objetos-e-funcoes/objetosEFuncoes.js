@@ -9,7 +9,7 @@ let info = {
 
 // imprimir boas vindas para nome da personagem
     console.log("Seja bem vinda ", info.personagem)
-    
+
 
 
 
