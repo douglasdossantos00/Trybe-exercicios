@@ -38,7 +38,7 @@ let info = {
   } */
 
 
-// Exercicio 4, fazer for/in para mostrar os valores das chaves
+/* // Exercicio 4, fazer for/in para mostrar os valores das chaves
 let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
@@ -49,10 +49,33 @@ let info = {
   for(let key in info){
       console.log(info[key]);
   }
+ */
+
+//Exrecicio 5, criar um segundo objeto e com as condições.....e imprimir as consições do objeto juntas e amas recorrentes e as duas forem sim
 
 
-
-
+let info = {
+        personagem: 'Margarida',
+        origem: 'Pato Donald',
+        nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+        recorrente: "Sim",
+}
+// criando objeto
+let info2 = {
+        personagem: 'Tio Patinhas',
+        origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+        nota: "O último MacPatinhas",
+        recorrente: "Sim",
+};
+for(let key in info){
+    if(key == "recorrente" && info[key] == "Sim" && info2[key]=="Sim"){
+    console.log("Ambos recorrentes")
+    }
+    else{
+    console.log(info[key] + " e " + info2[key]);
+    }
+}
+    
 
 
 
