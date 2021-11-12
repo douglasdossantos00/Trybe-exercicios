@@ -113,6 +113,10 @@ let leitor = {
   editor: 'Rocco',});
     console.table(leitor.livrosFavoritos);
 
+    // Exercicio 8, Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato:
+
+    console.log(leitor.nome + " tem " + leitor.livrosFavoritos.length + " livros favoritos.");
+
 
 
 
