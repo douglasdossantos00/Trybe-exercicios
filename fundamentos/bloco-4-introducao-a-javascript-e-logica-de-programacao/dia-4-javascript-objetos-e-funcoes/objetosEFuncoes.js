@@ -54,7 +54,7 @@ let info = {
 //Exrecicio 5, criar um segundo objeto e com as condições.....e imprimir as consições do objeto juntas e amas recorrentes e as duas forem sim
 
 
-let info = {
+/* let info = {
         personagem: 'Margarida',
         origem: 'Pato Donald',
         nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -75,8 +75,24 @@ for(let key in info){
     console.log(info[key] + " e " + info2[key]);
     }
 }
-    
+ */    
 
+// Exercicio 6, faça um console.log no seguinte formato:
+// "O livro favorito de Julia Pessoa se chama 'O Pior Dia de Todos'".
+
+let leitor = {
+    nome: 'Julia',
+    sobrenome: 'Pessoa',
+    idade: 21,
+    livrosFavoritos: [
+      {
+        titulo: 'O Pior Dia de Todos',
+        autor: 'Daniela Kopsch',
+        editora: 'Tordesilhas',
+      },
+    ],
+  };
+  console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " se chama " + '"' +leitor.livrosFavoritos[0].titulo +'".');
 
 
 
