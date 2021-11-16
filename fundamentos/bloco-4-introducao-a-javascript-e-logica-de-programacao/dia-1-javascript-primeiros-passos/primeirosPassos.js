@@ -1,4 +1,4 @@
-// *exercicio 1
+/* // *exercicio 1
 
 const a = 6;
 const b = 7;
@@ -6,9 +6,21 @@ console.log("Adição = ", a + b);
 console.log("Subtração= ", a - b);
 console.log("multiplicação= ", a * b);
 console.log("Divisão= ", a / b);
-console.log("Módulo = ", a % b);
+console.log("Módulo = ", a % b); */
 
-// *exercicio 2
+/* // exercicio 1 com function
+
+function operacaoAritimetica(operacao) {
+    console.log(operacao);
+}
+operacaoAritimetica(a+b);
+operacaoAritimetica(a-b);
+operacaoAritimetica(a*b);
+operacaoAritimetica(a/b);
+operacaoAritimetica(a%b); */
+
+
+ /* // *exercicio 2
 
 const c = 6;
 const d = 7;
@@ -17,9 +29,22 @@ if(c>d){
 }
 else {
     console.log(d)
-}
+} 
 
-// *exercicio 3
+// exercicio 2 com function
+
+function greater(){
+    if(c>d){
+       console.log(c) 
+    }
+    else{
+        console.log(d)
+    }
+}
+greater(); */
+
+
+ /* // *exercicio 3
 
 const e = 6;
 const f = 7;
@@ -32,9 +57,26 @@ else if(f>e && f>g) {
 }
 else {
     console.log(g)
-}
+} */
+ 
+/* //exercicio 3 com function
 
-// * exercicio 4
+function greater(a,b,c){
+    if (a>b && a>c){
+        return a;
+    }
+    else if(b>a && b>c) {
+        return b;    
+    }
+    else{
+        return c;
+    }
+}
+let result = greater(10,20,5);
+console.log(result); */
+
+
+/* // * exercicio 4
 
 const a4 = 8;
 if(a4>0){
@@ -45,9 +87,25 @@ else if(a4<0) {
 }
 else {
     console.log("zero")
-}
+} */
 
-// *exercicio 5
+/* // Exercicio 4 com function
+function number(n){
+if(n>0){
+    return "positivo"
+}
+else if (n<0) {
+    return "negativo"
+}
+else {
+    return 0
+}
+}
+let nCondition = number(0);
+console.log(nCondition); */
+
+
+/* // *exercicio 5
 
 const a5 = 20;
 const b5 = 60;
@@ -58,9 +116,28 @@ if (a5 < 0 || b5 < 0 || c5 <0){
 }
 else{
     console.log ("os ângulos representam um triângulo = ", comparacao)
+} */
+
+/* // exercicio 5 com function
+
+function triangle(a,b,c){
+    if(a<0 || b<0 || c<0){
+        return "erro";
+    }
+    else if(a+b+c == 180){
+        return true;
+    }
+    else{
+        return false;
+    }
+    
 }
 
-// *exercicio 6
+let result = triangle(30,80,-5);
+console.log(result); */
+
+
+/* // *exercicio 6
 
 const a6 = "Bispo";
 const lowera6 = a6.toLowerCase()
@@ -85,9 +162,9 @@ switch (lowera6) {
         break;
         default:
             console.log("não é uma pea de xadrez");
-}
+} */
 
-// * exercicio 7
+/* // * exercicio 7
 
 const a7 = 30;
 if (a7<0 || a7>100) {
@@ -110,9 +187,9 @@ if (a7<0 || a7>100) {
     }
     else {
         console.log("F");
-    }
+    } */
     
-// * exercicio 8
+/* // * exercicio 8
 
 const a8 = 10;
 const b8 = 11;
@@ -122,8 +199,9 @@ if(a8%2 == 0 || b8%2 == 0 || c8%2 == 0){
     par = true;
 }
 console.log("tem número par? =", par);
+ */
 
-// * ecxercicio 9
+/* // * ecxercicio 9
 
 const a9 = 11;
 const b9 = 13;
@@ -132,9 +210,10 @@ let impar = false ;
 if(a9%2 == 0 || b9%2 == 0 || c9%2 == 0){
     impar = true;
 }
-console.log("todos os números são impar? =", impar);
+console.log("todos os números são impar? =", impar); 
+*/
 
-// * exercicio 10
+/* // * exercicio 10
 
 const a10 = 10;
 const b10 = 50;
@@ -145,9 +224,9 @@ if(a10<0 || b10<0){
 }
 else {
     console.log(lucro * 1000);
-}
+} */
 
-git // * exercicio 11
+/* git // * exercicio 11
 
 const salarioBruto = 1000;
 let inss = 0;
@@ -197,11 +276,10 @@ else {
 
 console.log("valor inss = ", inss);
 console.log("valor do IR = ", ir);
-console.log("valor do salário líquido =", salarioLiquido);
+console.log("valor do salário líquido =", salarioLiquido); */
 
 
 
-    
 
 
 

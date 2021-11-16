@@ -11,7 +11,7 @@
     //console.log("Seja bem vinda ", info.personagem)
  
 
-/*  //2 - Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e,
+  //2 - Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e,
  //em seguida, imprima o objeto no console. Valor esperado no console:    
  
  let info = {
@@ -23,7 +23,7 @@
   info["recorrente"]="Sim";
   //imprimir o objeto
 console.log(info);
- */
+ 
 
 /* // Exercicio 3, fazer for/in para mostar as chaves
 let info = {
@@ -96,7 +96,7 @@ let leitor = {
 
   //Exercicio 7, Adicione um novo livro favorito na chave livrosFavoritos , que é um array 
 
-  let leitor = {
+  /* let leitor = {
     nome: 'Julia',
     sobrenome: 'Pessoa',
     idade: 21,
@@ -116,9 +116,7 @@ let leitor = {
     // Exercicio 8, Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato:
 
     console.log(leitor.nome + " tem " + leitor.livrosFavoritos.length + " livros favoritos.");
-
-
-
+ */
 
 
   

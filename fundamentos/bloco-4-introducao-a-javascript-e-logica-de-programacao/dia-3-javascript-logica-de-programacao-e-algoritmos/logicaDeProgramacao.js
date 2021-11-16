@@ -20,13 +20,3 @@ for (i=0; i<number; i++) {
 } */
 
 
-// * Exercicio 3, Agora inverta o lado do triângulo
-
-const number = 3;
-let nAsterisk = "*";
-let nLine = [];
-
-
-
-f
-
