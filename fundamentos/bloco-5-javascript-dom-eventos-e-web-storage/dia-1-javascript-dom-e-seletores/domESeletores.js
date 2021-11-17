@@ -20,4 +20,4 @@ for (let i = 0; i < paragrafos.length; i++) {
   let paragrafoMaiusculo = paragrafos[i];
   paragrafoMaiusculo.innerHTML = paragrafo.innerHTML.toUpperCase();
 }
-console.log(paragrafos);
+console.log("teste");
