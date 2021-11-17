@@ -10,3 +10,14 @@ for (i = 0; i < h3Emergency.lenght; i += 1){
 } */
 
 //exercicio funções de manipulação do DOM
+
+document.getElementsByTagName('p')[0].innerText = 'Espero que esteja na XP trabalhando como desenvolvedor'
+document.getElementsByTagName("main")[0].style.background = 'rgb(76,164,109)';
+document.getElementsByTagName("section")[0].style.background = 'white'
+document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - Javascript"
+let paragrafos = document.getElementsByTagName("p");
+for (let i = 0; i < paragrafos.length; i++) {
+  let paragrafoMaiusculo = paragrafos[i];
+  paragrafoMaiusculo.innerHTML = paragrafo.innerHTML.toUpperCase();
+}
+console.log(paragrafos);
