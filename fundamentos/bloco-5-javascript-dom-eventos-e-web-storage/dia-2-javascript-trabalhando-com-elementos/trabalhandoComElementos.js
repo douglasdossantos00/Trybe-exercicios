@@ -34,6 +34,22 @@ imageSectionLeft.className = "small-image"
 imageSectionLeft.src = "https://picsum.photos/200"
 sectionLeft.appendChild(imageSectionLeft)
 
+// exercicio 8
+let listaSectionRight = document.createElement("ul");
+listaSectionRight.innerText = "lista";  
+listaSectionRight.className = "classeDalista";
+sectionRight.appendChild(listaSectionRight);
 
+let listaNumeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
 
+for(i = 0; i < listaNumeros.length; i += 1) {
+    let numero = listaNumeros[i];
+    let itensListaSectionRight = document.createElement('li');
+    itensListaSectionRight.innerText = numero;
+    listaSectionRight.appendChild(itensListaSectionRight)
+}
+
+// exercicio 9
+let h3Main = document.createElement("main");
+document.body.appendChild(mainBody);
 
