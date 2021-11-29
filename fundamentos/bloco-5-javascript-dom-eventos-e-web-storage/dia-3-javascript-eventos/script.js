@@ -116,10 +116,34 @@ function clickFriday(array){
 }
 clickFriday([4, 11, 18, 25])
 
-/* Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, 
+/* exrcicio 6:
+ Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, 
   o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
  */
+function mouseOver() {
+  let getDay = document.querySelector('#days')
+    console.log(getDay)
+    getDay.addEventListener('mouseover', function(event) {
+    event.target.style.fontSize = "30px";
+    event.target.style.fontWeight = '200';
+  })
+} 
+mouseOver()
 
+function mouseOut() {
+  let getDay = document.querySelector('#days')
+    console.log(getDay)
+    getDay.addEventListener('mouseout', function(event) {
+    event.target.style.fontSize = "20px";
+    event.target.style.fontWeight = '200';
+  })
+}
+mouseOut()
 
+/* Exercício 7:
+Implemente uma função que adiciona uma tarefa personalizada ao calendário. A função deve receber como parâmetro 
+  a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.
+O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks" . */
 
+function add
 
