@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Form Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Criando um formulário de currículo.</h1>
+        <fieldset id="dadosPessoais">
+            <div class="dadosPessoais">
+                <label for="dados-Pessoais">
+                <input type="text" name=""  maxlength="40" placeholder="Digite seu nome" required>
+                <input type="email" name="" maxlength="50" placeholder="Digite seu email" required>
+                <input type="text" name="" maxlength="11" placeholder="CPF (somente numeros) " required>
+                <input type="text" name="" maxlength="200" placeholder="Digite seu endereço" required>
+                <input type="text" name="" maxlength="28" placeholder="Digite sua cidade" required>
+                <input type="text" name="" maxlength="28" placeholder="Selecione seu Estado" required>
+                <select name="" id="selecionaEstado"></select>
+                <input type="radio" id="casa" name="tipoDeMoradia" required value="casa">casa
+                <input type="radio" id="apartamento" name="tipoDeMoradia" required value="sorvete">apartamento 
+                <button type="submit" id="dados-Pessoais" >Enviar</button>
+                </label>    
+            </div>
+        </fieldset>
+        <fieldset id="dadosEmprego">
+            <textarea name="" id="" cols="30" rows="10" maxlength="1000" required></textarea>
+            <input type="text" maxlength="40" placeholder="Digite o cargo" required>
+            <input type="text" maxlength="500" placeholder="Descreva as atribuições do cargo" required>
+            <button></button>
+        </fieldset>
+    </main>
+    
+    <script src="script.js" ></script>
+</body>
+</html>
